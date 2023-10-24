@@ -64,18 +64,18 @@ body {
 
 /* สไตล์สำหรับ Navbar Item และเปลี่ยนสีเมื่อ hover */
 .navbar-nav .nav-item .nav-link {
-    transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #CF7500;
+  color: #CF7500;
 }
 /* CSS เพื่อทำให้รูปภาพย่อหรือขยายตามขนาดแพลตฟอร์ม */
 img {
-    max-width: 100%; /* รูปภาพจะไม่เกินความกว้างของพิกเซลตัวแพลตฟอร์ม */
-    height: auto; /* รักษารูปสัดส่วนเมื่อย่อหรือขยาย */
-    transform: rotate(25deg);
-  }
+  max-width: 100%; /* รูปภาพจะไม่เกินความกว้างของพิกเซลตัวแพลตฟอร์ม */
+  height: auto; /* รักษารูปสัดส่วนเมื่อย่อหรือขยาย */
+  transform: rotate(25deg);
+}
 .btn{
   margin-left: 10px;
   margin-right: 10px;
@@ -122,4 +122,7 @@ hr {
 
 .button:hover {
   background-color: #CF7500; /* เปลี่ยนสีเมื่อ hover */
+}
+.nav-link{
+  text-align: left;
 }
